@@ -1,0 +1,81 @@
+// Exercises 1 - Pseudocode Challenge
+
+1. Newton Second Law
+
+Algoritma :
+
+  1. Simpan m dengan nilai 600 Kg
+  2. Simpan a dengan nilai 2 m/s2
+  3. Simpan F tanpa memberikan nilai
+  4. Hitung nilai F dengan mengalikan m dan a
+  5. Tampilkan nilai F
+
+Pseudocode :
+
+  READ AND STORE "m" with 600 kg
+  READ AND STORE "a" with 2 m/s2
+  READ AND STORE "F" without any value
+
+  CALCULATE m times a
+  SET F value with calculation result
+
+  DISPLAY F
+
+2. Tahun Kabisat
+
+Algoritma :
+  
+  1. Simpan year dengan nilai tahun berapapun
+  2. Jika tahun habis dibagi 4 dan tidak habis dibagi 100
+       atau jika tahun habis dibagi 4, habis dibagi 100 dan habis dibagi 400
+  3. Jika salah satu atau kedua ketentuan diatas terpenuhi, maka tampilkan tahun kabisat
+  4. Jika ketentuan diatas tidak ada yang terpenuhi, maka tampilkan bukan tahun kabisat
+
+Pseudocode :
+
+  STORE "year" with "number"
+
+  IF "year" mod 4 equal to 0 AND "year" mod 100 not equal to 0 OR IF "year" mod 4 equal to 0 AND "year" mod 100 equal to 0 AND "year" mod 400 equal to 0
+    DISPLAY "year adalah tahun kabisat"
+      ELSE
+        DISPLAY "year bukan tahun kabisat"
+
+3. Laudry Day
+
+Algoritma :
+
+  1. Simpan jumlah pakaian dengan nilai O
+  2. Masukkan pakaian satu persatu kedalam mesin cuci
+  3. Ulangi langkah 2 apabila jumlah pakaian belum mencapai 20
+     Lanjut ke langkah 4 apabila jumlah pakaian sudah mencapai 20
+  4. Nyalakan mesin cuci
+
+Pseudocode :
+
+  READ AND STORE "laundry" with 0
+  WHILE "laundry" < 20
+
+  ADD "laundry" by 1
+
+  DISPLAY "Laundry process" 
+
+4. Periksa Kuku
+
+Algoritma :
+
+  1. Guru memeriksa kuku siswa/siswi sebanyak 40 orang dengan cara berkeliling kelas
+  2. Jika ditemukan siswa/siswi dengan kuku panjang, maka siswa akan mendapat hukuman
+  3. Jika tidak ditemukan siswa/siswi dengan kuku panjang, maka siswa akan mendapat pujian
+
+Pseudocode
+
+  READ AND STORE "siswa" with 0
+  READ AND SAVE "kuku" with any value
+
+  WHILE "siswa" < 40
+  ADD "siswa" by 1
+
+  IF "kuku" equals to "panjang"
+    DISPLAY "Guru akan menghukum siswa/siswi"
+  ELSE
+    DISPLAY "Guru akan memuji siswa/siswi"
